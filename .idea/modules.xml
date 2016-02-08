@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GoogleImageFetcher.iml" filepath="$PROJECT_DIR$/GoogleImageFetcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/googleimagefetchersbt.iml" filepath="$PROJECT_DIR$/.idea/modules/googleimagefetchersbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/googleimagefetchersbt-build.iml" filepath="$PROJECT_DIR$/.idea/modules/googleimagefetchersbt-build.iml" />
     </modules>
   </component>
 </project>
