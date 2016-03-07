@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="googleimagefetchersbt$sources_2.11"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160307191712"/>
+	<dependencies>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.2.6" status="release" pubdate="20140901232230" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2975" time="0" location="/Users/ryonext/.ivy2/cache/io.spray/spray-json_2.11/ivy-1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom"/>
+				<caller organisation="default" name="googleimagefetchersbt$sources_2.11" conf="compile" rev="1.2.6" rev-constraint-default="1.2.6" rev-constraint-dynamic="1.2.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="jar" ext="jar" status="successful" details="" size="317566" time="77371" location="/Users/ryonext/.ivy2/cache/io.spray/spray-json_2.11/jars/spray-json_2.11-1.2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar"/>
+					</artifact>
+					<artifact name="spray-json_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="19851" time="1089" location="/Users/ryonext/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.11">
+			<revision name="1.1.6" status="release" pubdate="20140422204200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2970" time="0" location="/Users/ryonext/.ivy2/cache/org.parboiled/parboiled-scala_2.11/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom"/>
+				<caller organisation="default" name="googleimagefetchersbt$sources_2.11" conf="compile" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.11" type="jar" ext="jar" status="successful" details="" size="234239" time="937" location="/Users/ryonext/.ivy2/cache/org.parboiled/parboiled-scala_2.11/jars/parboiled-scala_2.11-1.1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar"/>
+					</artifact>
+					<artifact name="parboiled-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28671" time="1026" location="/Users/ryonext/.ivy2/cache/org.parboiled/parboiled-scala_2.11/srcs/parboiled-scala_2.11-1.1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.6" status="release" pubdate="20130823003221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/ryonext/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom"/>
+				<caller organisation="default" name="googleimagefetchersbt$sources_2.11" conf="compile" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="166648" time="1249" location="/Users/ryonext/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="successful" details="" size="187091" time="690" location="/Users/ryonext/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150623051702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/ryonext/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="default" name="googleimagefetchersbt$sources_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/ryonext/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/ryonext/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

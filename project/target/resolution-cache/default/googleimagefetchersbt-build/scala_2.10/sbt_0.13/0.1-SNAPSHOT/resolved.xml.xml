@@ -4,7 +4,7 @@
 		module="googleimagefetchersbt-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160208211703"
+		publication="20160307191529"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

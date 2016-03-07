@@ -1,4 +1,5 @@
 import scala.io._
+import spray.json._
 
 /**
   * Created by ryonext on 2016/02/08.
@@ -11,7 +12,8 @@ object Fetcher {
     val url = "https://www.googleapis.com/customsearch/v1?key=" + apiKey + "&cx=" + engineId + "&q=" + query
 
     val source = Source.fromURL(url)
+    println(source.getLines().mkString)
+    //val result = JSON.parseRaw(source.getLines.mkString)
 
-    print(source.getLines.mkString)
   }
 }

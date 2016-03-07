@@ -7,13 +7,95 @@
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53d7528b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1985f15f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->default(compile)]
+[info] Resolving io.spray#spray-json_2.11;1.2.6 ...
+[debug] sbt-chain: Checking cache for: dependency: io.spray#spray-json_2.11;1.2.6 {compile=[default(compile)]}
+[info] Resolving io.spray#spray-json_2.11;1.2.6 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: io.spray#spray-json_2.11;1.2.6 {compile=[default(compile)]}
+[debug] 		tried /Users/ryonext/.ivy2/local/io.spray/spray-json_2.11/1.2.6/ivys/ivy.xml
+[debug] 	local: no ivy file found for io.spray#spray-json_2.11;1.2.6
+[debug] 		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom
+[error] Server access Error: Operation timed out url=https://jcenter.bintray.com/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom
+[debug] 	jcenter: no ivy file found for io.spray#spray-json_2.11;1.2.6
+[debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom
+[debug] 	public: found md file for io.spray#spray-json_2.11;1.2.6
+[debug] 		=> https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom (1.2.6)
+[debug] downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.pom
+[debug] 	[SUCCESSFUL ] io.spray#spray-json_2.11;1.2.6!spray-json_2.11.pom(pom.original) (479ms)
+[debug] 		tried /Users/ryonext/.ivy2/local/io.spray/spray-json_2.11/1.2.6/bundles/spray-json_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar
+[debug] 	found io.spray#spray-json_2.11;1.2.6 in public
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->master(compile)]
+[info] Resolving org.parboiled#parboiled-scala_2.11;1.1.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.parboiled#parboiled-scala_2.11;1.1.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.parboiled#parboiled-scala_2.11;1.1.6 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.parboiled#parboiled-scala_2.11;1.1.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/ryonext/.ivy2/local/org.parboiled/parboiled-scala_2.11/1.1.6/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.parboiled#parboiled-scala_2.11;1.1.6
+[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom
+[debug] 	jcenter: found md file for org.parboiled#parboiled-scala_2.11;1.1.6
+[debug] 		=> https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom (1.1.6)
+[debug] downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.pom
+[debug] 	[SUCCESSFUL ] org.parboiled#parboiled-scala_2.11;1.1.6!parboiled-scala_2.11.pom(pom.original) (701ms)
+[debug] 		tried /Users/ryonext/.ivy2/local/org.parboiled/parboiled-scala_2.11/1.1.6/bundles/parboiled-scala_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar
+[debug] 	found org.parboiled#parboiled-scala_2.11;1.1.6 in jcenter
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->master(compile)]
+[info] Resolving org.parboiled#parboiled-core;1.1.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.parboiled#parboiled-core;1.1.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.parboiled#parboiled-core;1.1.6 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.parboiled#parboiled-core;1.1.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/ryonext/.ivy2/local/org.parboiled/parboiled-core/1.1.6/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.parboiled#parboiled-core;1.1.6
+[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom
+[debug] 	jcenter: found md file for org.parboiled#parboiled-core;1.1.6
+[debug] 		=> https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom (1.1.6)
+[debug] downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom
+[debug] 	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.6!parboiled-core.pom(pom.original) (702ms)
+[debug] 		tried /Users/ryonext/.ivy2/local/org.parboiled/parboiled-core/1.1.6/bundles/parboiled-core.jar
+[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar
+[debug] 	found org.parboiled#parboiled-core;1.1.6 in jcenter
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->compile]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [compile]
@@ -21,6 +103,32 @@
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->compile]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [test]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [runtime]
@@ -29,6 +137,32 @@
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->compile]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -40,6 +174,32 @@
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->compile]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->master]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -50,6 +210,32 @@
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->compile]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->master]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [test-internal]
@@ -60,6 +246,32 @@
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->default(compile)]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->runtime]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [compile->compile(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies io.spray#spray-json_2.11;1.2.6->org.parboiled#parboiled-scala_2.11;1.1.6 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.parboiled#parboiled-scala_2.11;1.1.6->org.parboiled#parboiled-core;1.1.6 [runtime->compile]
+[debug] == resolving dependencies default#googleimagefetchersbt_2.11;1.0->io.spray#spray-json_2.11;1.2.6 [compile->master]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#googleimagefetchersbt_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -85,8 +297,6 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
@@ -155,12 +365,30 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar
+[info] downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.2.6/spray-json_2.11-1.2.6.jar
+[info] 	[SUCCESSFUL ] io.spray#spray-json_2.11;1.2.6!spray-json_2.11.jar(bundle) (1321ms)
+[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar
+[info] downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.6/parboiled-scala_2.11-1.1.6.jar
+[info] 	[SUCCESSFUL ] org.parboiled#parboiled-scala_2.11;1.1.6!parboiled-scala_2.11.jar(bundle) (2232ms)
+[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar
+[info] downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar
+[info] 	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.6!parboiled-core.jar(bundle) (1151ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 145ms :: artifacts dl 5ms
+[debug] :: resolution report :: resolve 81700ms :: artifacts dl 4713ms
 [debug] 	report for default#googleimagefetchersbt_2.11;1.0 compile produced in /Users/ryonext/IdeaProjects/GoogleImageFetcherSBT/target/resolution-cache/reports/default-googleimagefetchersbt_2.11-compile.xml
 [debug] 	report for default#googleimagefetchersbt_2.11;1.0 runtime produced in /Users/ryonext/IdeaProjects/GoogleImageFetcherSBT/target/resolution-cache/reports/default-googleimagefetchersbt_2.11-runtime.xml
 [debug] 	report for default#googleimagefetchersbt_2.11;1.0 test produced in /Users/ryonext/IdeaProjects/GoogleImageFetcherSBT/target/resolution-cache/reports/default-googleimagefetchersbt_2.11-test.xml
@@ -174,5 +402,5 @@
 [debug] 	report for default#googleimagefetchersbt_2.11;1.0 docs produced in /Users/ryonext/IdeaProjects/GoogleImageFetcherSBT/target/resolution-cache/reports/default-googleimagefetchersbt_2.11-docs.xml
 [debug] 	report for default#googleimagefetchersbt_2.11;1.0 pom produced in /Users/ryonext/IdeaProjects/GoogleImageFetcherSBT/target/resolution-cache/reports/default-googleimagefetchersbt_2.11-pom.xml
 [debug] 	report for default#googleimagefetchersbt_2.11;1.0 scala-tool produced in /Users/ryonext/IdeaProjects/GoogleImageFetcherSBT/target/resolution-cache/reports/default-googleimagefetchersbt_2.11-scala-tool.xml
-[debug] 	resolve done (145ms resolve - 5ms download)
+[debug] 	resolve done (81700ms resolve - 4713ms download)
 [info] Done updating.
